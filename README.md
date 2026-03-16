@@ -14,7 +14,7 @@ reporadar check discordjs/discord.js
 
 ```
 ╭──────────────────────────── RepoRadar Analysis ────────────────────────────╮
-│  ✅ discordjs/discord.js                                                    │
+│  ✅ discordjs/discord.js                                                   │
 │  Score: 89.0/100  (Healthy)                                                 │
 │  Verdict: ALIVE                                                             │
 ╰─────────────────────────────────────────────────────────────────────────────╯
