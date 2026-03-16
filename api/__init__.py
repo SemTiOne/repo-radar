@@ -1,0 +1,1 @@
+"""api — Phase 2 FastAPI stub for RepoRadar web API."""

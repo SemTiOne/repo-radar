@@ -1,0 +1,27 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.log
+~/.reporadar/
+.reporadar/
+
+# License key issuance log (contains customer emails — never commit)
+keys_issued.log
+
+# Local license validation cache
+.reporadar/license_cache.json
+
+# Server environment variables
+deploy/server.env
+deploy/server.env.example
+deploy/env.example
+deploy/env.
+deploy/.env
+
+# License server internals
+licensing/
+scripts/generate_key.py

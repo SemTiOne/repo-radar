@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install only what the server needs
+COPY requirements.txt .
+RUN pip install --no-cache-dir fastapi uvicorn requests python-dotenv
+
+COPY licensing/ ./licensing/
+COPY security.py .
+COPY deploy/server_entrypoint.py .
+
+# Create data directory for revocation list
+RUN mkdir -p /data
+ENV REVOCATION_FILE=/data/revoked.json
+
+EXPOSE 8080
+
+CMD ["python", "server_entrypoint.py"]

@@ -1,0 +1,11 @@
+.env
+.git
+__pycache__
+*.pyc
+*.egg-info
+dist/
+build/
+tests/
+.pytest_cache/
+~/.reporadar/
+*.log

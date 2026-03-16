@@ -1,0 +1,1 @@
+"""cli — Command-line interface for RepoRadar."""
