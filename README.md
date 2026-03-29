@@ -37,7 +37,7 @@ Checking all of this manually takes 10 minutes per repo. RepoRadar does it in se
 
 ```bash
 # Install
-git clone https://github.com/SemTiOne/reporadar
+git clone https://github.com/SemTiOne/repo-radar
 cd reporadar
 pip install -r requirements.txt
 
@@ -139,9 +139,10 @@ reporadar cache stats
 
 No subscription. Pay once, use forever.
 
-**[Buy RepoRadar Pro — $29 →](https://www.paypal.com/ncp/payment/5X6DW442HHETW)**
+**[Buy RepoRadar Pro — $29 →](https://ko-fi.com/s/da44d6fada)**
 
-After payment, email **emphyst80@gmail.com** with your PayPal transaction ID and you'll receive your license key within 24 hours.
+Your license key will be **emailed to you automatically within 60 seconds** after payment.
+Check your spam folder if you don't see it in your inbox.
 
 Activate it in your `.env`:
 ```env
