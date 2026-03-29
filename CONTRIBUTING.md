@@ -10,7 +10,7 @@ Thanks for your interest in contributing! RepoRadar is a Python CLI tool — con
 
 ```bash
 # 1. Fork and clone
-git clone https://github.com/SemTiOne/reporadar
+git clone https://github.com/SemTiOne/repo-radar
 cd reporadar
 
 # 2. Create a virtual environment
@@ -124,7 +124,7 @@ All core logic (`core/`, `cache/`, `history/`, `subscription/`) is Phase 2-ready
 
 ## Reporting Bugs
 
-Open a [GitHub Issue](https://github.com/SemTiOne/reporadar/issues) with:
+Open a [GitHub Issue](https://github.com/SemTiOne/repo-radar/issues) with:
 - Your OS and Python version
 - The command you ran
 - The full error output
