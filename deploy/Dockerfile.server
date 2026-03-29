@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Install only what the server needs
 COPY requirements.txt .
-RUN pip install --no-cache-dir fastapi uvicorn requests python-dotenv
+RUN pip install --no-cache-dir fastapi uvicorn requests python-dotenv python-multipart
 
 COPY licensing/ ./licensing/
 COPY security.py .
